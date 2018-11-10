@@ -60,7 +60,7 @@ OpenWrt/LEDE LuCI for KoolProxy
 tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
 cd OpenWrt-SDK-ar71xx-*
 # Clone 项目
-git clone https://github.com/chenhw2/luci-app-koolproxy.git package/feeds/luci-app-koolproxy
+git clone https://github.com/rsd1987/luci-app-koolproxy.git package/feeds/luci-app-koolproxy
 # 编译 po2lmo (如果有po2lmo可跳过)
 pushd package/feeds/luci-app-koolproxy/tools/po2lmo
 make && sudo make install
